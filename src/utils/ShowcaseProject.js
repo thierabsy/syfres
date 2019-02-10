@@ -64,6 +64,8 @@ const renderVideo = (url = "https://www.youtube.com/watch?v=VhQszxQ9ZKA") => {
                 url={url}
                 playing
                 className="video-player"
+                width="auto"
+                height="auto"
             />
         </div>
     )

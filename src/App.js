@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
@@ -122,6 +123,9 @@ class App extends Component {
         <Showcase 
           project = { this.state.showcaseModal } 
           selectProject = { this.selectProject }
+          showOverlay={ this.showOverlay }
+        />
+        <Footer 
           showOverlay={ this.showOverlay }
         />
       </div>

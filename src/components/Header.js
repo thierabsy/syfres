@@ -5,7 +5,7 @@ const Header = ({showOverlay}) => (
         <div className="container">
             <div className="Header-inner">
                 <div className="left">
-                    <img src="img/Senegal.png" alt="French" />
+                    <img src="img/syfres-w.png" alt="French" />
                     <ul>
                         <li>About</li>
                         <li><a href="#Services">Services</a></li>
