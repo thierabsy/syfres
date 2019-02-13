@@ -30,12 +30,13 @@ class About extends Component {
                             <div className="about-card">
                                 <h4>About Us</h4>
                                 <p>
-                                    I've paid $5000 for MBA in a country where the GDP/person is less than $5. 
-                                    But I am always passionate for creating solutions that can have a huge impact.
+                                    {/* I've paid $5000 for MBA in a country where the GDP/person is less than $5. 
+                                    But I am always passionate for creating solutions that can have a huge impact. */}
+                                    We are an agency evolving in the digital. We work with our customers as partners to help them achieve their goals and improve their visibility and brand awareness on the Internet.
                                 </p>
                                 <div 
                                     className="read-more"
-                                    // onClick={ () => this.props.showOverlay("about") }
+                                    onClick={ () => this.props.showOverlay("about") }
                                 >
                                     <span>Read more</span> <i className="fas fa-angle-double-right" />
                                 </div>

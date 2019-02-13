@@ -9,6 +9,7 @@ import Showcase from './components/Showcase';
 import Overlay from './utils/Overlay';
 import Contact from './utils/Contact';
 import ShowcaseProject from './utils/ShowcaseProject';
+import AboutModal from './utils/AboutModal';
 
 // import Header
 
@@ -99,6 +100,9 @@ class App extends Component {
             inputChange={ this.inputChange } 
             formData = { this.state.formData}
           />
+        }
+        { this.state.modal.about && 
+          <AboutModal />
         }
         { this.state.modal.showcase && 
           <ShowcaseProject
