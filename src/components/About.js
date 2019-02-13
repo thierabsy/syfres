@@ -21,7 +21,7 @@ class About extends Component {
     }
     render(){
         const nameIndex = this.state;
-        console.log(nameIndex)
+        // console.log(nameIndex)
         return (
             <div className="About">
                 <div className="container">

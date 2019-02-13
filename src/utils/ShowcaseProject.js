@@ -34,8 +34,6 @@ const renderDetails = p => {
     )
 }
 const renderGallery = (p, i, incDec) => {
-    console.log("i", i);
-    console.log("l", p.gallery.length);
     return(
         <div className="gallery-img">
             <Zoom>
@@ -73,7 +71,6 @@ const renderVideo = (url = "https://www.youtube.com/watch?v=VhQszxQ9ZKA") => {
 
 const ShowcaseProject = ({project, id, type, imgIndex, switchType, incDec }) => {
     let selectedProject = PROJECTS.filter(p => p.id === id)[0];
-    // console.log(selectedProject);
     return(
         <div className="ShowcaseProject">
             <div className="container2">

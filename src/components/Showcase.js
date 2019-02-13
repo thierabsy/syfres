@@ -6,7 +6,7 @@ const Showcase = ({ project, selectProject, showOverlay }) => (
     <div className="Showcase"  id="Works">
         <div className="showcase-header">
             <div className="showcase-header-text">
-                <img src="img/notes.png" alt="Our Works" />
+                <img src="img/notes-sm.jpg" alt="Our Works" />
                 <h1> Some of our works!</h1>
             </div>
             <div className="barre" />

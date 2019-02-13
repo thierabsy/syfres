@@ -42,6 +42,7 @@ body {
     display: grid;
     grid-template-columns: 10% 1fr 10%;
     // grid-template-columns: repeat(12, 1fr);
+    min-width: 1207px;
     @media only screen and (max-width: 892px){
         grid-template-columns: 5% 1fr 5%;
     }
@@ -55,6 +56,7 @@ body {
     margin: 0 auto;
     margin-top: 10vh;
     z-index: 5;
+    min-width: 1207px;
     @media only screen and (max-width: 892px){
         width: 90%;
     }
@@ -277,6 +279,7 @@ li{
             border: 5px solid $violet;
             transition: all 0.5s;
             max-width: 500px;
+            min-height: 250px;
             position: relative;
             img{
                 width: 100%;
@@ -482,7 +485,7 @@ li{
         text-align: center;
         background: $violet;
         color: white;
-        padding: 20px 10px;
+        padding: 30px 10px;
         text-transform: capitalize;
         position: relative;
         .showcase-header-text{
@@ -490,6 +493,7 @@ li{
             max-width: 350px;
             margin: 0 auto;
             h1{
+                margin-bottom: 0;
             }
             img{ 
                 width: 100px;
@@ -499,7 +503,7 @@ li{
         }
         .barre {
             position: absolute;
-            top: 47%;
+            top: 51%;
             left: 10%;
             right: 10%;
             height: 6%;
@@ -586,6 +590,9 @@ li{
     }
     .about-content{
         padding: 0 20px;
+        h4{
+            color: $violet;
+        }
     }
 }
 .AboutModal, .Contact{
@@ -731,28 +738,7 @@ li{
                 }
             }
         }
-        .showcase-details-techStack{
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 10px;
-            .tech-stack-label{
-                color: $violet;
-                font-size: 20px;
-                font-weight: bold;
-                text-decoration: underline;
-            }
-            .tech-stack-items{
-                display: flex;
-                flex-wrap: wrap;
-                .tech-stack-item{
-                    margin: 4px;
-                    padding: 0 5px 2px;
-                    border-radius: 5px;
-                    font-size: 13px;
-                }
-            }
-        }
+        
     }
     .showcase-header{
         ul{
@@ -847,6 +833,28 @@ li{
 
                 }
             }
+        }
+    }
+}
+.showcase-details-techStack{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    .tech-stack-label{
+        color: $violet;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    .tech-stack-items{
+        display: flex;
+        flex-wrap: wrap;
+        .tech-stack-item{
+            margin: 4px;
+            padding: 0 5px 2px;
+            border-radius: 5px;
+            font-size: 13px;
         }
     }
 }
