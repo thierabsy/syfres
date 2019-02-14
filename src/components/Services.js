@@ -13,8 +13,13 @@ const Services = () => (
             <div className="Services-inner">
                 {
                     services.map( s => <div key={ s.name } className="service-single">
+                            
                             <Zoom>
-                                <img src={`img/${s.img}`} alt={ s.name } />
+                                <img 
+                                    src={`img/${s.img}`} 
+                                    // srcSet={`img/${s.img.split(".")[0]}-sm.jpg 500w`} 
+                                    alt={ s.name } 
+                                />
                                 <h3> { s.name } </h3>
                                 <p> { s.text } </p>
                             </Zoom>

@@ -6,7 +6,7 @@ export const PROJECTS = [
         about: "Application for weather and forecast for Senegal.",
         link: "https://aqueous-ocean-26641.herokuapp.com/",
         sector: "Services",
-        img: "senmeteo.jpg",
+        img: "senmeteo.png",
         techStack: [
             {
                 name: "React",
@@ -35,21 +35,21 @@ export const PROJECTS = [
             },
         ],
         gallery: [
-            "senmeteo.jpg",
+            "senmeteo.png",
             "senmeteo1.png",
             "senmeteo2.png",
             "senmeteo3.png",
             "senmeteo4.png",
         ]
     },
-    { 
+    {
         id: "lyf",
         status: "finish",
         name: "League Yux Football", 
         about: "Application for Senegaleese soccer to manage Leaderboard, Score and Teams.",
         link: "https://murmuring-brook-27050.herokuapp.com/",
         sector: "Web Design",
-        img: "lyf.jpg",
+        img: "lyf.png",
         techStack: [
             {
                 name: "React",
@@ -83,7 +83,7 @@ export const PROJECTS = [
             }
         ],
         gallery: [
-            "lyf.jpg",
+            "lyf.png",
             "lyf1.png",
             "lyf2.png",
             "lyf3.png",
@@ -100,7 +100,7 @@ export const PROJECTS = [
         about: "MAPER (Mentorship, Articles, Peers, Events, Ressources) is a database and a search engine for quality resources for young africans.",
         link: "https://boiling-escarpment-27613.herokuapp.com",
         sector: "Younth development",
-        img: "yalimaper.jpg",
+        img: "yalimaper.png",
         techStack: [
             {
                 name: "React",
@@ -139,7 +139,7 @@ export const PROJECTS = [
             },
         ],
         gallery: [
-            "yalimaper.jpg",
+            "yalimaper.png",
             "yalimaper1.png",
             "yalimaper2.png",
             "yalimaper3.png",
@@ -158,7 +158,7 @@ export const PROJECTS = [
         about: "BERAC is a consulting firm which work on economic and social development in Senegal and Afrique.",
         link: "http://beraconsulting.com",
         sector: "Consulting",
-        img: "berac.jpg",
+        img: "berac.png",
         techStack: [
             {
                 name: "React",
@@ -182,7 +182,7 @@ export const PROJECTS = [
             },
         ],
         gallery: [
-            "berac.jpg",
+            "berac.png",
             "berac1.png",
             "berac2.png",
             "berac3.png",
@@ -197,7 +197,7 @@ export const PROJECTS = [
         about: "gouye-gui.com is an information and intellectual website.",
         link: "http://gouye-gui.com",
         sector: "Information",
-        img: "gouyegui.jpg",
+        img: "gouyegui.png",
         techStack: [
             {
                 name: "React",
@@ -236,7 +236,7 @@ export const PROJECTS = [
             }
         ],
         gallery: [
-            "gouyegui.jpg",
+            "gouyegui.png",
             "gouyegui1.png",
             "gouyegui2.png",
             "gouyegui3.png",
@@ -256,7 +256,7 @@ export const PROJECTS = [
         about: "Access-Emploi is a job board, located in Senegal.",
         link: "https://access-emploi.com",
         sector: "Job",
-        img: "accessemploi.jpg",
+        img: "accessemploi.png",
         techStack: [
             {
                 name: "Wordpress",
@@ -295,7 +295,7 @@ export const PROJECTS = [
             }
         ],
         gallery: [
-            "accessemploi.jpg",
+            "accessemploi.png",
             "accessemploi1.png",
             "accessemploi2.png",
         ]

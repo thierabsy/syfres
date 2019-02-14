@@ -1,6 +1,6 @@
 export const services = [
     {
-        name: "Design",
+        name: "Design", 
         img: "design-sm.jpg",
         text: "After a deep beechmarking, we design a unique solution by using the best practices in UX and UI."
     },

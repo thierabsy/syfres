@@ -2,13 +2,18 @@ import React from 'react';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 
+const wiw = window.innerWidth;
+
 const Project = ({ p, i, project, selectProject, showOverlay }) => (
     <div 
         className={`project-single ${ project === i ? "project-hover" : ""}`} 
     >
         <Slide bottom>
             <div className="project-img">
-                <img src={`img/showcase/${ p.id }/${ p.img }`} alt={ p.name } />
+                <img 
+                    src={`img/showcase/${ p.id }/${ p.img }`}
+                    alt={ p.name } 
+                />
                 <div className="img-overlay" />
             </div>
         </Slide>
