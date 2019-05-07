@@ -12,7 +12,7 @@ const Project = ({ p, i, project, selectProject, showOverlay }) => (
         <Slide bottom>
             <div className="project-img">
                 <img 
-                    src={`img/showcase/${ p.id }/${ wiw > 600 ? p.img : p.img.split(".")[0]}-sm.jpg`} 
+                    src={`img/showcase/${ p.id }/${ wiw > 600 ? p.img : (p.img.split(".")[0] + "-sm.jpg")}`} 
                     alt={ p.name } 
                 />
                 <div className="img-overlay" />
