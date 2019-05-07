@@ -2,6 +2,7 @@ import React from 'react';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
 
+// console.log(`${s.img.split(".")[0]}-sm.jpg`)
 const wiw = window.innerWidth;
 
 const Project = ({ p, i, project, selectProject, showOverlay }) => (
@@ -11,7 +12,7 @@ const Project = ({ p, i, project, selectProject, showOverlay }) => (
         <Slide bottom>
             <div className="project-img">
                 <img 
-                    src={`img/showcase/${ p.id }/${ p.img }`}
+                    src={`img/showcase/${ p.id }/${ wiw > 600 ? p.img : p.img.split(".")[0]}-sm.jpg`} 
                     alt={ p.name } 
                 />
                 <div className="img-overlay" />
